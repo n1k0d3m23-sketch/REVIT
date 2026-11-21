@@ -1,0 +1,17 @@
+name: car_test
+description: Lokalna aplikacja do testów samochodowych
+publish_to: none
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^13.0.2
+  sensors_plus: ^6.1.1
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.5
+
+flutter:
+  uses-material-design: true
